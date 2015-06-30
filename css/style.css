@@ -485,5 +485,11 @@ div {
     cursor: pointer;
     color: #333333;
 }
+/******** Introduction styles ********/
+.introduction {
+    background: url(../images/Karma-background-image.jpeg) no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
 
 
