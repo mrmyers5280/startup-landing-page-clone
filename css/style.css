@@ -493,10 +493,14 @@ div {
 }
 .introduction > .content {
     width: 46rem;
+    text-align: center;
+    margin: 0 auto;
 }
 .introduction > .content > h1 {
-    margin-top: 15rem;
+    margin-top: 17.5rem;
+    color: #ffffff;
     font-size: 3rem;
+    font-weight: 300;
 }
 
 
