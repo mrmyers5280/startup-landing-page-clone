@@ -428,7 +428,9 @@ th {
 
 /* My Styles
     ==================================== */
-
+html {
+  -webkit-font-smoothing: antialiased;
+}
 body {
     background-color: LightGray;
     font-family: 'Roboto', sans-serif; 
@@ -436,11 +438,10 @@ body {
     color: #838994; 
     letter-spacing: 0.03em;
 }
-
 div {
     border: 1px solid Chocolate;
 }
-
+/******** Navigation and Logo styles ********/
 .top-navigation {
     position: fixed;
     width: 100%;
@@ -456,6 +457,10 @@ div {
     width: 46rem;
     margin: 0 auto;
 }
+.top-navigation .logo {
+    height: 4.375rem;
+    float: left;
+}
 .top-navigation .links {
     float: right;
     margin-top: 1.7rem;
@@ -465,13 +470,14 @@ div {
     display: inline-block;
     margin-left: 1.563rem;
 }
-.top-navigation .links li.active {
+.top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
 }
-.top-navigation .logo {
-    height: 4.375rem;
-    float: left;
+.top-navigation .links li:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #333333;
 }
 
 
