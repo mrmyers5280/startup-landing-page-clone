@@ -494,5 +494,9 @@ div {
 .introduction > .content {
     width: 46rem;
 }
+.introduction > .content > h1 {
+    margin-top: 15rem;
+    font-size: 3rem;
+}
 
 
