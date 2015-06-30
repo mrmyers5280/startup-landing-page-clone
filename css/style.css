@@ -507,4 +507,15 @@ div {
     color: #ffffff;
     font-weight: 300;
 }
+.introduction > .content > .buttons {
+    color: #ffffff;
+}
+button {
+    width: 10rem;
+    padding: 1rem 1.5rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    border-radius: 4px;
+    font-size: 1.125rem;
+}
 
