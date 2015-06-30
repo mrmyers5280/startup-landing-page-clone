@@ -445,6 +445,7 @@ div {
 .content {
     padding: 0 0.938rem;
     min-width: 37.5rem;
+    box-sizing: border-box;
 }
 .top-navigation > .content {
     height: 4.375rem;
