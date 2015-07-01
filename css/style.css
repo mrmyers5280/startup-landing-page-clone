@@ -457,11 +457,11 @@ div {
 .content {
     padding: 0 0.938rem;
     min-width: 37.5rem;
+    width: 46rem;
     margin: 0 auto;
 }
 .top-navigation > .content {
     height: 4.375rem;
-    width: 46rem;
 }
 .top-navigation .logo {
     height: 4.375rem;
@@ -494,7 +494,6 @@ div {
     overflow: auto;
 }
 .introduction > .content {
-    width: 46rem;
     text-align: center;
 }
 .introduction > .content > h1 {
