@@ -455,6 +455,7 @@ ol, ul {
 .top-navigation {
     position: fixed;
     width: 100%;
+    z-index: 9999;
     background-color: #ffffff;
 }
 .content {
