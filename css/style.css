@@ -446,7 +446,10 @@ body {
     letter-spacing: 0.03em;
 }
 div {
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
+}
+ol, ul {
+    list-style: none;
 }
 /******** Navigation and Logo styles ********/
 .top-navigation {
@@ -530,15 +533,25 @@ button:hover {
 /******** Cases Styles ********/
 .cases {
     background-color: #ffffff;
+    overflow: hidden;
     padding-bottom: 5rem;
 }
 .cases > .content {
     text-align: center;
-    padding-top: 7.875rem;
+    margin-top: 7.875rem;
     color: #1d1e21;
 }
 .cases > .content > h2 {
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
     font-size: 2.75rem;
+}
+.cases .devices > li {
+    width: 33.33%;
+    float: left;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0 1.875rem;
 }
