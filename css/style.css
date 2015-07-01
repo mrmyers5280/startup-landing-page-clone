@@ -527,3 +527,14 @@ button:hover {
     cursor: pointer;
 }
 
+/******** Cases Styles ********/
+.cases {
+    background-color: #ffffff;
+    padding-bottom: 5rem;
+}
+.cases > .content {
+    text-align: center;
+    padding-top: 7.875rem;
+    color: #1d1e21;
+}
+
