@@ -562,3 +562,7 @@ button:hover {
     background-color: #ffffff;
     overflow: hidden;
 }
+.social h5 {
+    font-weight: 400;
+    color: #000000;
+}
